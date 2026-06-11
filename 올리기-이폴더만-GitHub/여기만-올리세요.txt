@@ -1,0 +1,29 @@
+========================================
+  GitHub에 올릴 때는 이 폴더만 쓰세요
+========================================
+
+왜?
+  상위 "sellar-filter" 폴더 안에는 node_modules 가 있어서
+  파일이 수백 개입니다. GitHub 웹 업로드는 그렇게 많이 못 받습니다.
+
+이 폴더에는 필요한 것만 있습니다 (약 5개):
+
+  index.html
+  app.js
+  styles.css
+  .github/workflows/github-pages.yml
+
+하는 일:
+
+  1) 이 폴더(올리기-이폴더만-GitHub)를 연다.
+  2) 안에 있는 것 전부 선택한다 (.github 폴더 포함).
+  3) GitHub **새 저장소** 페이지 → uploading an existing file (또는 Add file → Upload)
+  4) 끌어다 놓기 → Commit changes
+  ※ 저장소 이름은 본인이 정한 이름(예: sellar-filter, my-excel-tool) 사용
+
+주의:
+
+  node_modules 폴더는 절대 올리지 마세요. (이 폴더에는 없음)
+
+웹사이트는 인터넷(CDN)에서 엑셀 라이브러리를 불러오므로
+node_modules 없이도 동작합니다.

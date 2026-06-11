@@ -1,0 +1,53 @@
+========================================
+  sourcingpro 말고 — 다른 이름으로 새로 시작
+========================================
+
+코드/프로그램 이름을 바꿀 필요 없습니다.
+GitHub에서 "저장소 이름"만 새로 정하면 됩니다.
+
+
+■ 1단계 — 새 저장소 만들기
+--------------------------------
+1. GitHub 로그인
+2. 오른쪽 위 + → New repository
+3. Repository name 에 **새 이름** 입력 (영문 추천)
+
+   예시 이름:
+   - sellar-filter
+   - excel-sourcing
+   - my-filter
+
+4. Public 선택 → Create repository
+
+
+■ 2단계 — 파일 올리기
+--------------------------------
+PC에서 폴더 연다:
+
+  새 폴더 (2) \ sellar-filter \ 올리기-이폴더만-GitHub
+
+안에 있는 것 **전부**를 새 저장소에 Upload
+(가능하면 **폴더째 말고**, 안의 index.html 등이 저장소 **맨 앞**에 오게 올리기)
+
+
+■ 3단계 — 주소 (이름이 바뀌면 주소도 바뀜)
+--------------------------------
+
+  https://본인아이디.github.io/새저장소이름/
+
+예: 아이디 ddoldol3521-blip, 저장소 이름을 sellar-filter 로 만들었다면
+
+  https://ddoldol3521-blip.github.io/sellar-filter/
+
+
+■ 예전 sourcingpro 저장소는?
+--------------------------------
+- 그냥 두어도 되고
+- Settings → Danger zone → Delete 로 지워도 됩니다.
+  (새 저장소랑은 별개입니다.)
+
+
+■ Pages 켜기 (한 번만)
+--------------------------------
+새 저장소 → Settings → Pages
+→ Deploy from a branch → main → / (root) → Save
